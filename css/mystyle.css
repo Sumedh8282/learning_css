@@ -1,0 +1,56 @@
+h4{
+    color:white;
+    background-color:red;
+    font-size:60px;
+}
+.t_upper{
+    text-transform:uppercase;
+}
+.t_lower{
+    text-transform:lowercase;
+}
+.t_capitalize{
+    text-transform:capitalize;
+}
+.t_center{
+    text-align:center;
+}
+.t_right{
+    text-align:right;
+}
+.t_d_under{
+    text-decoration:underline;
+}
+.t_d_over{
+    text-decoration:overline;
+}
+.t_d_line{
+    text-decoration:line-through;
+}
+.t_decor{
+    text-decoration:underline overline line-through;
+}
+.t_indent{
+    text-indent:183px;
+}
+.t_lineheiht{
+    line-height:30px;
+}
+.l_space{
+    letter-spacing: 30px;
+}
+.w_space{
+    word-spacing: 30px;
+}
+.t_shadow1{
+    text-align: center;
+    font-size: 80px;
+    color: aqua;
+    text-shadow: 15px 16px 15px red;
+}
+.t_shadow2{
+    text-align: center;
+    font-size: 80px;
+    color: black;
+    text-shadow: 6px 5px 1px gray;
+}
