@@ -119,3 +119,51 @@ img{
     border:8px outset violet;
     border-color: brown blue red green;
 }
+.box_model1{
+    border: 4px solid red;
+    padding: 40px ;
+    margin: 100px;
+}
+.border_img6{
+    border: 8px double blue;
+    padding: 20px ;
+    margin: 40px;
+
+}
+.box_model2{
+     border: 8px double rgb(24, 156, 193);
+    padding: 40px 40px 40px 40px ;
+    margin: 30px 50px 30px 50px;
+
+}
+.linear{
+    height: 400px;
+    background: linear-gradient(orange,white,green);
+}
+.heading1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 150px;
+    color: blue;
+}
+.radial{
+    height:600px;
+    background: radial-gradient(circle,red,yellow,green,blue);
+}
+.conic{
+    height:600px;
+    background:conic-gradient(from 90deg,blue,red,yellow,green,blue);
+}
+.body{
+    background-image: url("images/—Pngtree—glow light lens flare 1_5958378.png");
+    background-repeat: no-repeat;
+    background-size: auto cover;
+    background-position: top center;
+    background-color: aqua;
+}
+.h1{
+    text-align: center;
+    color:white
+}
+
+
