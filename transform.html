@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    }
+    .box{
+    width:200px;
+    height:200px;
+    background-color: coral;
+    border: 3px solid red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: transform 5s ease;
+    }
+
+    .box1:hover{
+        transform: translate(125px,125px);
+    }
+    .box2:hover{
+        transform: translate(125px);
+    }
+    .box3:hover{
+        transform: translate(225px);
+    }
+    .box4:hover{
+        transform: rotate(180deg);
+    }
+    .box5:hover{
+        transform: skewX(20deg);
+    }
+    .box6:hover{
+        transform: skewY(20deg);
+    }
+    .box7:hover{
+        transform: skew(20deg, 20deg);
+    }
+    .box8:hover{
+        transform: scale(1.5);
+    }
+    .box9:hover{
+        transform: scale(1.5) rotate(90deg) translateX(100px);
+    }
+    .img-wrapper{
+        width: 300px;
+        height: 250px;
+        border: 2px solid red;
+        position: relative;
+        overflow: hidden;
+    }
+    .inner-img{
+        width: 100px;
+        height: 100px;
+        transition: 3s;
+    }
+    .inner-img1:hover{
+        transform: scale(1.5)
+    }
+    .inner-img2:hover{
+        transform: scale(1.5)
+    }
+    .inner-img3:hover{
+        transform: scale(1.5)
+    }
+   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">Translate X & Y</div>
+        <div class="box box2">Translate X </div>
+        <div class="box box3">Translate Y</div>
+        <div class="box box4">Rotate</div>
+        <div class="box box5">SkewX </div>
+        <div class="box box6">SkewY</div>
+        <div class="box box7">Skew</div>
+        <div class="box box8">Scale</div>
+        <div class="box box9">Multiple</div>
+    </div>
+
+    <div class="img-wrapper">
+        <div class="inner-img1">
+            <img src="/images/wallpaper-962590_640.png"/>
+    </div>
+</body>
+</html>
