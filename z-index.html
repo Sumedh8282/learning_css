@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .z-container {
+            position: relative;
+            margin: 50px;
+        }
+
+        div{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            color: white;
+            text-align: center;
+            border-radius: 100px;
+            font-size: 20px;
+            border: 3px solid white;
+        }
+        .blue {
+            left: 60px;                              
+            background-color: blue;
+            z-index: 1; /* Lowest */
+        }
+        .green {
+            left: 120px;
+            background-color: green;
+            z-index: 2; /* Middle */
+        }
+        .red {
+            left: 180px;
+            background-color: red;
+            z-index: 3; /* Highest */
+        }
+    </style>
+</head>
+<body>
+    <div class="z-container">
+        <div class="blue">Blue</div>
+        <div class="green">Green</div>
+        <div class="red">Red</div>
+</body>
+</html>
