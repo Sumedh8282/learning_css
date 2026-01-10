@@ -1,0 +1,15 @@
+h3{
+    color: orange;
+    background-color: aquamarine;
+    font-size: 40px;
+}
+p{
+    color: purple;
+    background-color: lavender;
+    font-size: 30px;
+}
+thead , tfoot{
+    color:aqua;
+    background-color: black;
+    font-size: 20px;
+}
