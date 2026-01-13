@@ -1,0 +1,13 @@
+#heading1{
+    color: red;
+}
+.heading1{
+    color: blue;
+    font-size: 70px;
+}
+#t_decor{
+    text-decoration: underline;
+}
+.t_transform{
+    text-transform: uppercase;
+}

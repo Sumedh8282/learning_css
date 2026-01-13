@@ -1,0 +1,30 @@
+.f_family1{
+    font-family: monospace;
+}
+.f_family2{
+    font-family: fantasy;
+    font-style: italic;
+}
+.f_family3{
+    font-family: cursive;
+    line-height: 20px;
+}
+.f_family4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.f_family5{
+    font-family: 'Times New Roman', Times, serif;
+}
+.f_family6{
+    font-family: 'Courier New', Courier, monospace;
+}
+.f_family7{
+    font-family: 'Lucida Console', 'Courier New', monospace;
+}
+.f_weight{
+    font-weight: 800; /* Bold */ 
+    font-style: italic;
+}
+.f_font{
+    font: italic bold 30px verdana, sans-serif;
+}
