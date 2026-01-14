@@ -22,4 +22,6 @@
     margin-bottom: 50px;
     margin-left: 70px;*/
     margin: 90px 50px 70px 90px; /* top right bottom left */
+    box-shadow: 4px 4px 5px grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
