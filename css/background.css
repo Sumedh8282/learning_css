@@ -1,0 +1,18 @@
+.background1{
+    height: 400px;
+    background: linear-gradient(red,blue,green,yellow);
+    color: white;
+    text-align: center;
+}
+.background2{
+    height: 400px;
+    background: radial-gradient(circle,black,red,blue,white);
+    color: white;
+    text-align: center;
+}
+.background3{
+    height: 400px;
+    background: conic-gradient(red,orange,yellow,green,blue,indigo,violet,red);
+    color: white;
+    text-align: center;
+}
