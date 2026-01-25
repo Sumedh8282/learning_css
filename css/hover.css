@@ -1,0 +1,49 @@
+h1:hover{
+    color: red;
+    font-size: 50px;
+    text-shadow: 4px 4px 5px grey;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+}
+h2:active{
+    color: green;
+    font-size: 40px;
+    cursor: pointer;    
+}
+a:visited{
+    color: green;
+}
+input:focus{
+    background-color: red;
+    color: white;
+    border : 8px solid black;
+}
+.para_bg{
+    border: 2px solid red;
+    padding: 10px;
+}
+.para_bg:hover{
+    border: 2px solid red;
+    padding: 10px;
+    /*background-color: black;*/
+    background: linear-gradient(black,green);
+    color: white;
+    padding: 40px;
+    margin: 50px;
+}
+p::first-letter{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+p::first-line{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+::selection{
+    background-color: yellow;
+    color: black;
+}
