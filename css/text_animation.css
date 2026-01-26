@@ -35,12 +35,12 @@
 }
 @keyframes getUp {
     from{
-        transform: rotateX(85deg);
+        transform: rotateX(-85deg);
     }
     10%,50%{
         transform: rotateX(0deg);
     }
     60%,to{
-        transform: rotateX(85deg);
+        transform: rotateX(-85deg);
     }
 }
